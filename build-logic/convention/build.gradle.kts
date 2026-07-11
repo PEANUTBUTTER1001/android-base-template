@@ -9,6 +9,7 @@ dependencies {
     compileOnly(libs.kotlin.gradlePlugin)
     compileOnly(libs.ksp.gradlePlugin)
     compileOnly(libs.hilt.gradlePlugin)
+    compileOnly(libs.kotlin.serialization.gradlePlugin)
 }
 
 gradlePlugin {
@@ -31,6 +32,11 @@ gradlePlugin {
         register("androidHilt") {
             id = "my.android.hilt"
             implementationClass = "AndroidHiltConventionPlugin"
+        }
+
+        register("androidNavigation") {
+            id = "my.android.navigation"
+            implementationClass = "AndroidNavigationConventionPlugin"
         }
     }
 }
