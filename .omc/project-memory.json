@@ -1,0 +1,190 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1783755659687,
+  "projectRoot": "C:\\Users\\user\\AndroidStudioProjects\\android-base-template",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Kotlin",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "build.gradle.kts"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "gradle",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "app"
+    ],
+    "gitBranches": {
+      "defaultBranch": "develop",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "app": {
+      "path": "app",
+      "purpose": "Application code",
+      "fileCount": 3,
+      "lastAccessed": 1783755659629,
+      "keyFiles": [
+        "build.gradle.kts",
+        "proguard-rules.pro"
+      ]
+    },
+    "build": {
+      "path": "build",
+      "purpose": "Build output",
+      "fileCount": 0,
+      "lastAccessed": 1783755659629,
+      "keyFiles": []
+    },
+    "build-logic": {
+      "path": "build-logic",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1783755659630,
+      "keyFiles": [
+        "settings.gradle.kts"
+      ]
+    },
+    "gradle": {
+      "path": "gradle",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1783755659631,
+      "keyFiles": [
+        "gradle-daemon-jvm.properties",
+        "libs.versions.toml"
+      ]
+    },
+    "app\\build": {
+      "path": "app\\build",
+      "purpose": "Build output",
+      "fileCount": 0,
+      "lastAccessed": 1783755659633,
+      "keyFiles": []
+    },
+    "app\\src": {
+      "path": "app\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1783755659633,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "gradle/libs.versions.toml",
+      "accessCount": 11,
+      "lastAccessed": 1783758862980,
+      "type": "file"
+    },
+    {
+      "path": "rename_package.py",
+      "accessCount": 5,
+      "lastAccessed": 1783757163651,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 4,
+      "lastAccessed": 1783759110072,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/java/com/peanutbutter1001/android_base_template/navigation/AppNavHost.kt",
+      "accessCount": 3,
+      "lastAccessed": 1783758375580,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/java/com/peanutbutter1001/android_base_template/MainActivity.kt",
+      "accessCount": 2,
+      "lastAccessed": 1783757520653,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/java/com/peanutbutter1001/android_base_template/navigation/AppDestinations.kt",
+      "accessCount": 2,
+      "lastAccessed": 1783757905523,
+      "type": "file"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "accessCount": 1,
+      "lastAccessed": 1783755754157,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "accessCount": 1,
+      "lastAccessed": 1783756035927,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/java/com/peanutbutter1001/android_base_template/AndroidbasetemplateApplication.kt",
+      "accessCount": 1,
+      "lastAccessed": 1783756036283,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/java/com/peanutbutter1001/android_base_template/AndroidBaseTemplateApplication.kt",
+      "accessCount": 1,
+      "lastAccessed": 1783756500695,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "accessCount": 1,
+      "lastAccessed": 1783756501138,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/java/com/peanutbutter1001/android_base_template/ui/theme/Theme.kt",
+      "accessCount": 1,
+      "lastAccessed": 1783757368061,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/java/com/peanutbutter1001/android_base_template/ui/screens/HomeScreen.kt",
+      "accessCount": 1,
+      "lastAccessed": 1783757504336,
+      "type": "file"
+    },
+    {
+      "path": "app/src/main/java/com/peanutbutter1001/android_base_template/ui/screens/DetailScreen.kt",
+      "accessCount": 1,
+      "lastAccessed": 1783757512678,
+      "type": "file"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "accessCount": 1,
+      "lastAccessed": 1783759068211,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
